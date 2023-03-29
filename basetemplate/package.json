@@ -2,7 +2,7 @@
   "name": "basetemplate",
   "version": "0.0.1",
   "description": "React Native Template Test",
-  "repository": "https://github.com/aldiazve/react-native-template-test",
+  "repository": "https://github.com/aldiazve/react-native-template-test/tree/main/basetemplate",
   "author": "Alejandro Diaz Vecchio <aldiazve@gmail.com>",
   "license": "MIT"
 }
