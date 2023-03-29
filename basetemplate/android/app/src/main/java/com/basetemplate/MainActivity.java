@@ -1,4 +1,5 @@
 package com.basetemplate;
+import android.os.Bundle; // Required from react-navigation
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -31,5 +32,14 @@ public class MainActivity extends ReactActivity {
         // If you opted-in for the New Architecture, we enable Concurrent React (i.e. React 18).
         DefaultNewArchitectureEntryPoint.getConcurrentReactEnabled() // concurrentRootEnabled
         );
+  }
+
+  /**
+   * Require from react navigation library to work properly
+   * check: https://reactnavigation.org/docs/getting-started for more info
+   */
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }
