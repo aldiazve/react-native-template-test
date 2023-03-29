@@ -10,10 +10,15 @@ export const App: FC = () => {
   return (
     <NavigationContainer>
       <MainStackNavigator.Navigator initialRouteName={ViewsNames.Home}>
-        <MainStackNavigator.Screen name={ViewsNames.Home} component={Home} />
+        <MainStackNavigator.Screen
+          name={ViewsNames.Home}
+          component={Home}
+          options={{ title: 'BasicTemplate - Home' }}
+        />
         <MainStackNavigator.Screen
           name={ViewsNames.FormExample}
           component={SimpleForm}
+          options={{ title: 'BasicTemplate - Form example' }}
         />
       </MainStackNavigator.Navigator>
     </NavigationContainer>

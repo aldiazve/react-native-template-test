@@ -4,7 +4,7 @@ Just a bunch of relative usefull React Native Templates.
 
 ---
 
-All Template have ```eslint``` and ```prettier``` configuration. You can find a ```.vscode``` folder for IDE configuration.
+All Templates have ```eslint``` and ```prettier``` configuration. You can find a ```.vscode``` folder for IDE configuration.
 
 All Templates have the following libraries:
 
@@ -12,9 +12,3 @@ All Templates have the following libraries:
 - [Styled Components](https://styled-components.com/docs/basics#react-native)
 - [React Hook Form](https://react-hook-form.com/)
 
-
-### Standard template: 
-
-### Description
-
-### Libraries: 

@@ -1,7 +1,8 @@
-import { Button } from 'components';
+import { Button, VerticalSeparator, ViewContainer } from 'components';
 import { FC } from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
 import { ViewsNames } from 'routes';
+import { CenteredView } from './styles';
 import { HomeProps } from './types';
 
 export const Home: FC<HomeProps> = ({ navigation }) => {
@@ -10,11 +11,16 @@ export const Home: FC<HomeProps> = ({ navigation }) => {
   };
 
   return (
-    <View>
-      <Text>Welcome</Text>
-      <Button onPress={onButtonPress}>
-        <Text>Ir a otra vista</Text>
-      </Button>
-    </View>
+    <ViewContainer>
+      <CenteredView>
+        <Text>Welcome</Text>
+        <VerticalSeparator size="XL" />
+        <Text>React Native Basic Template Model</Text>
+        <VerticalSeparator size="SM" />
+        <Button onPress={onButtonPress}>
+          <Text>Go to react-hook-form example</Text>
+        </Button>
+      </CenteredView>
+    </ViewContainer>
   );
 };
